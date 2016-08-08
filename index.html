@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .green{
+            color: green;
+        }
+
+        .red{
+            color: red;
+        }
+
+        .blue{
+            color: blue;
+        }
+
+        .fancy {
+        	font-family: Cursive;
+        }
+</style>
+
+    <title>jQuery Introduction</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="hide">Hide</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="show">Show</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="toggle">Toggle</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="html">HTML</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="prepend">Prepend</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="append">Append</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="css">CSS</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="each">Each</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="addClass">Add Class</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="removeClass">Remove Class</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="animate">ANIMATE</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" todo="delay">Delay</button>
+            </div>
+        </div>
+
+<!-- THE THING -->
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <button class="btn btn-success thing" id="thing">Do Something to Me</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
